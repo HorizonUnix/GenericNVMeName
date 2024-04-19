@@ -7,7 +7,7 @@ A codeless kext that patches the NVMe controller to rename it to Apple’s nativ
 <img src="Img/proof.png">
 
 ## Supported OS
-- macOS High Sierra (10.13.6) to macOS Sonoma (14)
+- macOS Catalina (10.15) to macOS Sonoma (14)
 ## Usage
 1. Download from releases.
 2. Click on `GenericNVMeName` kext and choose `Show Package Contents`.

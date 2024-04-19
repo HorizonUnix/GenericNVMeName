@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>23E224</string>
+	<string>22A380019</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.AppleOSX.GenericNVMeName</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -13,31 +15,29 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
+	<string>1.1.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.0</string>
+	<string>1.1.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>12C33</string>
+	<string>23E220</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>11.1</string>
+	<string>14.4</string>
 	<key>DTSDKBuild</key>
-	<string>20C63</string>
+	<string>23E220</string>
 	<key>DTSDKName</key>
-	<string>macosx11.1</string>
+	<string>macosx14.4.internal</string>
 	<key>DTXcode</key>
-	<string>1230</string>
+	<string>1500</string>
 	<key>DTXcodeBuild</key>
-	<string>12C33</string>
+	<string>15E6079e</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>com.AppleOSX.GenericNVMeName</key>
@@ -50,10 +50,22 @@
 			<string>IONVMeController</string>
 			<key>IOPCIPrimaryMatch</key>
 			<string>0x500615b7 0xf1a88086</string>
+			<key>IOPCIPauseCompatible</key>
+			<true/>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>IOPCIUseDeviceMapper</key>
+			<true/>
+			<key>IOPrimaryDriverTerminateOptions</key>
+			<true/>
 			<key>IOProbeScore</key>
 			<integer>9000</integer>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
+			<key>IOUnitName</key>
+			<string>disk</string>
+			<key>Physical Interconnect</key>
+			<string>PCI-Express</string>
 			<key>Physical Interconnect Location</key>
 			<string>Internal</string>
 			<key>Vendor Name</key>
@@ -61,7 +73,9 @@
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.13.6</string>
+	<string>10.15.6</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2024 AppleOSX. All rights reserved.</string>
 	<key>OSBundleRequired</key>
 	<string>Root</string>
 </dict>

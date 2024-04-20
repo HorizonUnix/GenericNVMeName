@@ -38,4 +38,4 @@ A codeless kext that patches the NVMe controller to rename it to Apple’s nativ
 - You can change the NVMe controller name by changing the `Vendor Name` and `Chipset Name` in `Info.plist`.
 
 > [!CAUTION]
-> - I think the members and owners of ChefKiss Inc. shouldn't use this kext. Why? Because Visual will say, 'Do not use this kext because it will inject some useless information and just only for comestic, etc...' So, is that true? We still don't know because I've been banned from both Telegram and GitHub by ChefKiss ( Visual )
+> - I **think** the members and owners of ChefKiss Inc **shouldn't** use this kext. Why? Because Visual **will** say `Do not use this kext because it will inject some useless information and just only for comestic, etc...`. So, is that true? We still don't know because I've been banned from both Telegram and GitHub by ChefKiss (Visual)

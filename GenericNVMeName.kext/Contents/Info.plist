@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.AppleOSX.GenericNVMeName</string>
+	<string>com.HorizonUnix.GenericNVMeName</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -40,7 +40,7 @@
 	<string>15E6079e</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>com.AppleOSX.GenericNVMeName</key>
+		<key>com.HorizonUnix.GenericNVMeName</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.iokit.IONVMeFamily</string>
@@ -75,7 +75,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>10.15.6</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2024 AppleOSX. All rights reserved.</string>
+	<string>Copyright © 2024 HorizonUnix. All rights reserved.</string>
 	<key>OSBundleRequired</key>
 	<string>Root</string>
 </dict>

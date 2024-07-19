@@ -1,5 +1,3 @@
-<img src="Img/Logo.jpg" width="150" height="150">
-
 # GenericNVMeName
 A codeless kext that patches the NVMe controller to rename it to Apple’s native one or something else
 

@@ -33,7 +33,7 @@ A codeless kext that patches the NVMe controller to rename it to Apple’s nativ
 
 <img src="Img/5.png">
 
-> **Warning**
+> [!Warning]
 > - For example, if your `Vendor` ID is `0xAAAA` and `Device` ID is `0xBBBB`, combine both as follows: `0xbbbbaaaa` (all in lowercase) and input it into `IOPCIPrimaryMatch`.
 > - Supports multiple NVMe IDs by separating them with a space, e.g., `0xbbbbaaaa 0xddddcccc`.
 > - In my case, with a `Vendor` ID of `0x8086` and a `Device` ID of `0xF1A8`, my `IOPCIPrimaryMatch` is `0xf1a88086`.
